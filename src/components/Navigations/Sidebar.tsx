@@ -47,7 +47,7 @@ const Sidebar = () => {
     },
   ];
   return (
-    <div className="w-[400px] fixed top-[20%]  border rounded-md border-[#1e2441] bg-[#13182a] p-5 text-white">
+    <div className="w-[350px] fixed top-[20%]  border rounded-md border-[#1e2441] bg-[#13182a] p-5 text-white">
       <div>
         <div className="font-[200] px-2 flex items-center justify-start gap-3 border-b border-[#29364d] pb-4">
           <span className="w-[80px] text-gray-500">IP Address</span>
