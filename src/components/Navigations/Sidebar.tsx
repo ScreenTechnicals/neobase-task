@@ -8,8 +8,13 @@ import { BiMessageAdd } from "react-icons/bi";
 import { PiRecordFill } from "react-icons/pi";
 import { MdRebaseEdit } from "react-icons/md";
 
+type Link = {
+  name: string;
+  path: string;
+  icon: any;
+};
 const Sidebar = () => {
-  const navLinks = [
+  const navLinks: Array<Link> = [
     {
       name: "Node Overview",
       path: "node-overview",

@@ -19,7 +19,7 @@ const Header = () => {
         </div>
         <div className="w-[1px] h-[50px] bg-gradient-to-tr from-[#00a75f] to-[#003f24]"></div>
         <div className="">
-          <button className="text-lg bg-[#00a75f] py-2 px-20 rounded-xl">
+          <button className="text-lg bg-[#00a75f] py-2 px-20 rounded-xl hover:bg-[#0f3e2a] transition-all">
             Start
           </button>
         </div>

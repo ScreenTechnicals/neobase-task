@@ -4,7 +4,7 @@ import Section3 from "@/components/Sections/Session/Section3";
 
 export default function Home() {
   return (
-    <main className="">
+    <main>
       <Section1 />
       <Section2 />
       <Section3 />

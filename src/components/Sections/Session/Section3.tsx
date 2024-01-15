@@ -1,7 +1,15 @@
 import React from "react";
 
+type Data = {
+  sessionStartTime?: string;
+  date?: string;
+  duration?: string;
+  nodeUsed?: string;
+  dataConsumed?: string;
+  LocationOfNode?: string;
+};
 const Section3 = () => {
-  const dataHisitory = [
+  const dataHisitory: Array<Data> = [
     {
       sessionStartTime: "11:43:23",
       date: "27-07-24",
@@ -93,6 +101,7 @@ const Section3 = () => {
       {dataHisitory.map((item, index) => {
         return (
           <div
+            key={index}
             className={
               index === dataHisitory.length - 1
                 ? "flex justify-between items-center w-full  p-5"

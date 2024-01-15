@@ -10,8 +10,19 @@ import {
 import { Bar } from "react-chartjs-2";
 
 ChartJS.register(BarElement, CategoryScale, LinearScale, Tooltip, Legend);
+
+type Dataset = {
+  categoryPercentage?: number;
+  label?: string;
+  data: Array<number>;
+  backgroundColor?: string;
+};
+type Data = {
+  labels: Array<string>;
+  datasets: Array<Dataset>;
+};
 const Section2 = () => {
-  const data = {
+  const data: Data = {
     labels: [
       "JAN",
       "FEB",

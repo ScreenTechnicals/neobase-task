@@ -1,8 +1,14 @@
 import React from "react";
 import Card from "@/components/Cards/Card";
 
+type Data = {
+  heading: string;
+  subheading: string;
+  desc: string;
+};
+
 const Section1 = () => {
-  const sessionData = [
+  const sessionData: Array<Data> = [
     {
       heading: "Active Sessions",
       subheading: "+12.21",
